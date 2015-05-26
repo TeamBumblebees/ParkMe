@@ -1,0 +1,19 @@
+"Window[platform=ios]": {
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+".container": {
+	backgroundColor:"white",
+}
+
+"#header": {
+	top: 0,
+	height: "10%",
+	width: "100%",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: {x: "0%", y: "0%"},
+		endPoint: {x: "100%", y: "100%"},
+		colors: [{color: "red", offset: 0.0}, {color: "orange", offset: 1.0}]
+	}
+}

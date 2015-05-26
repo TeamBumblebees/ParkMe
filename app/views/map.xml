@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="map" class="container">
+		<View id="header">
+			<Label color="white">Park Me @ La Trobe</Label>	
+		</View>
+	</Window>
+</Alloy>

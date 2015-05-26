@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.bumblebees.parkme</id>
+    <name>Park Me</name>
+    <version>1.0</version>
+    <publisher>Bumblebees</publisher>
+    <url>http://google.com</url>
+    <description>undefined</description>
+    <copyright>2015 by Bumblebees</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>82a93658-040b-42c6-9444-e15ab0b28662</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleLightContent</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application android:theme="@style/Theme.Titanium">
+                <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCkN1fnqul8ivzpS_AFLrsQ9BIVKC0NVYs"/>
+            </application>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="android">ti.map</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.5.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5550b3df3466df731812318b</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">oNI4Y70d5Sf8YHirZgyQrgyRj0oY6bPB</property>
+    <property name="acs-oauth-key-development" type="string">9FsTd0fhgPvVkrPm3SXdIiuLFGzSVDYC</property>
+    <property name="acs-api-key-development" type="string">g42fMk7cNfJLnaE54oUqcGJwUAs259JM</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">0AZWXSoYJddMbP9y0T</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">8s4Hcxr1T7UyLyglgF6NUiIeLrEknKNw</property>
+    <property name="acs-oauth-key-production" type="string">nhto55USGVxYs1UWLMWKbglStWmch5Oi</property>
+    <property name="acs-api-key-production" type="string">8wKg4LH4asfy89pHEIsj25oz2hOTCb8f</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">fELiCqPMtlFpiW65G1</property>
+    <property name="appc-org-id" type="string">100020062</property>
+    <property name="appc-creator-user-id" type="string">783e2742-e19e-415f-8cd5-dd6f69cc22d5</property>
+</ti:app>

@@ -1,0 +1,55 @@
+<Alloy>
+	<Window class="container" platform="android,ios">
+		<View id="header">
+			<Label color="white">Park Me @ La Trobe</Label>	
+		</View>
+			
+		<TableView id="cpTable">
+			<TableViewRow backgroundColor="#50ff0000" hasChild="true">
+				<Label left="5%">Car Park 1</Label>	
+				
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 2</Label>
+				
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 3</Label>
+				
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 4</Label>
+				
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 6</Label>
+				
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 7</Label>
+				
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 8</Label>
+					
+			</TableViewRow>
+			
+			<TableViewRow hasChild="true">
+				<Label left="5%">Car Park 9</Label>
+				
+			</TableViewRow>
+		</TableView>
+
+		<Button id="navigateButton" onClick="doClick">NAVIGATE TO CAR SPOT</Button>
+		<Button id="infoButton">INFO</Button>
+		<Button id="mapButton" onClick="openMap">VIEW MAP</Button>
+		<Button id="settingsButton" onClick="refresh">SETTINGS</Button>
+		
+	</Window>
+</Alloy>
